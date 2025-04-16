@@ -7,6 +7,8 @@ qt_standard_project_setup()
 
 qt_add_executable(xor_files
     main.cpp
+    xor_files_processor.h xor_files_processor.cpp
+    app_args.h app_args.cpp
 )
 
 target_link_libraries(xor_files
